@@ -30,4 +30,4 @@ urlpatterns = [
     path('Directorio', views.Directorios)
 ]
 
-handler404 = 'tienda.views.error_404'
+handler404 = 'gestionTienda.views.error_404'

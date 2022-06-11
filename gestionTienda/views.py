@@ -37,6 +37,7 @@ def Directorios(request):
 
     return render(request, "Directorio.html", {"form":directorioFormulario})
 
-
+def error_404(request, exception):
+    return render(request, 'Errores/Error404.html', {})
 
 
