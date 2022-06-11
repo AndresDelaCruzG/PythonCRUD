@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercadito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Inicio">Mercadito</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Sugerencias">Sugerencias</a></li>
+      <li><a href="Directorio">Directorio</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="admin/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+{% block body %} {% endblock %}
+</body>
+</html>
