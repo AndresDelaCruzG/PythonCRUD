@@ -24,10 +24,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('Inicio/admin/', admin.site.urls),
     path('Inicio/Inicio',views.Inicio),
-    path('Sugerencias', views.Sugerencias),
     path('Inicio/Sugerencias', views.Sugerencias),
     path('Inicio/Directorio', views.Directorios),
-    path('Directorio', views.Directorios)
 ]
 
 handler404 = 'gestionTienda.views.error_404'
